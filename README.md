@@ -12,7 +12,7 @@ More details to come... the current not-so-short instructions:
 1. Insert the micro-sd into your RPi then plug in the power
    1. If you are using our [ROSbots build steps](https://www.rosbots.com/build_it), that would mean [plugging in the red/black Powerboost Lipo battery wires into the Powerboost board](https://www.rosbots.com/static/landing/img/build_it_v02/step_09_powerboost_top/IMG_20180221_083340.jpg) on the top platform.
 1. Find the IP address assigned to you Raspberry Pi's ethernet module:
-   1. On a Mac or Linux system, that's easily discoverable via "sudo nmap -sP x.x.x.0/24" where you replace x.x.x.0 with your network subnet. 
+   1. On a Mac or Linux system, that's easily discoverable via "sudo nmap -sP x.x.x.0/24" where you replace x.x.x.0 with your network subnet. Note: Mac users will need to install nmap using the official installer or a package manager such as Homebrew or MacPorts.
 1. ssh pi@xxx.xxx.xxx.xxx (IP address assigned to your RPi)
    1. password - rosbots!
 1. Once logged in, run the following commands in the ssh terminal:
